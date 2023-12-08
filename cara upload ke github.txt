@@ -1,0 +1,7 @@
+token : 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
+masukin tokennya kalo ke logout
+
+git add .
+git commit -m "isi nama terserah"
+git pull
+git push
