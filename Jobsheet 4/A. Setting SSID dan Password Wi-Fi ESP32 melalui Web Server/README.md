@@ -16,11 +16,11 @@
 ## 4. Hasil dan Pembahasan
 ### Dokumentasi Hasil
 1. Tampilan Awal Serial Monitor Sebelum Dihubungkan
-
-   ![1  Tampilan Awal Serial Monitor Sebelum Dihubungkan]
+   
 ![1  Tampilan Awal Serial Monitor Sebelum Dihubungkan](https://github.com/deaprasasti/Jobsheet-Embedded/assets/153251202/4c3d8878-19ec-4a0e-bf3d-a47d2689e897)
 
 2. Tampilan Web & WiFi
+   
    ![tampilan wifi](https://github.com/deaprasasti/Jobsheet-Embedded/assets/153251202/c99c8681-2a57-4ad9-a454-9d7c6b1e3310)
 ![2  tampilan web](https://github.com/deaprasasti/Jobsheet-Embedded/assets/153251202/3eb49354-b23d-4a8f-ae0d-2d432ed0295d)
 
@@ -32,6 +32,7 @@
 
    
 4. Serial Monitor Setelah Berhasil Terhubung
+   
    ![4  Serial Monitor Setelah Berhasil Terhubung](https://github.com/deaprasasti/Jobsheet-Embedded/assets/153251202/12f9df48-1c91-415d-8a4a-6905d64f4cc6)
 
 
