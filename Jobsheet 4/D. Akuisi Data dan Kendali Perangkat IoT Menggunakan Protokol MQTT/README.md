@@ -19,11 +19,7 @@
 ## 4. Hasil & Penjelasan Percobaan Kontrol Nyala LED Melalui Dashboard Node-RED
 ### Dokumentasi Percobaan
 
-1. Flow chart 
-   
-  ![Flow Program](https://github.com/ArthZ01/System-Embedded/assets/91934953/8481c937-042b-4cde-918c-9d1004649e05)
-
-2. Dokumentasi
+1. Dokumentasi
    
    <img src="https://github.com/deaprasasti/Jobsheet-Embedded/assets/153251202/c75e2902-0155-4ad6-b519-40f007e1ec9e" width=40% height=40%>   
 
@@ -79,3 +75,8 @@ Catatan:
    * Kode ini menggunakan protokol MQTT untuk mengendalikan perangkat IoT (dalam hal ini, menyalakan dan mematikan LED) dari jarak jauh melalui server Adafruit IO.
    * Server MQTT yang digunakan adalah `io.adafruit.com`.
    * Kode ini dapat dimodifikasi untuk mengendalikan berbagai macam perangkat IoT lainnya.
+
+## ANALISA
+
+
+## KESIMPULAN
