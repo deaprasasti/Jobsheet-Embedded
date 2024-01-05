@@ -6,33 +6,32 @@
 
 ## 2. Source Code
 
-<img src="https://github.com/ArthZ01/System-Embedded/assets/91934953/2db0b857-5e73-4955-a12c-b65fec459779" height=1000rem>
+<img src="![Penjelasan Kode](https://github.com/deaprasasti/Jobsheet-Embedded/assets/153251202/aab217c4-0084-4960-820b-d67ad107a445)" height=1000rem>
 
 
 ## 3. Flowchart
 
-<img src="https://github.com/ArthZ01/System-Embedded/assets/91934953/8286f7b0-52ad-4662-9eb9-9feac8efd2d0" height=700rem>
+<img src="![Flow Chart](https://github.com/deaprasasti/Jobsheet-Embedded/assets/153251202/39e8974a-d0cb-4461-a568-35f97faca3ee)" height=700rem>
 
 ## 4. Hasil dan Pembahasan
 ### Dokumentasi Hasil
 1. Tampilan Awal Serial Monitor Sebelum Dihubungkan
 
-   ![1  Tampilan Awal Serial Monitor Sebelum Dihubungkan](https://github.com/ArthZ01/System-Embedded/assets/91934953/00a64629-aaed-4876-8403-c0e9d0839872)
+   ![1  Tampilan Awal Serial Monitor Sebelum Dihubungkan]
+![1  Tampilan Awal Serial Monitor Sebelum Dihubungkan](https://github.com/deaprasasti/Jobsheet-Embedded/assets/153251202/4c3d8878-19ec-4a0e-bf3d-a47d2689e897)
 
 2. Tampilan Web & WiFi
+   ![tampilan wifi](https://github.com/deaprasasti/Jobsheet-Embedded/assets/153251202/c99c8681-2a57-4ad9-a454-9d7c6b1e3310)
+![2  tampilan web](https://github.com/deaprasasti/Jobsheet-Embedded/assets/153251202/3eb49354-b23d-4a8f-ae0d-2d432ed0295d)
 
-   ![tampilan wifi](https://github.com/ArthZ01/System-Embedded/assets/91934953/b9bfab62-391f-494b-9dac-bbf6bda4ef51)
-   ![2  tampilan web](https://github.com/ArthZ01/System-Embedded/assets/91934953/b1f7d66e-bfef-45f3-a4d7-6b5a824b09e2)
+4. Serial Monitor Setelah Memasukkan SSID dan PASS
+   ![SSID dan Pass](https://github.com/deaprasasti/Jobsheet-Embedded/assets/153251202/571c4fce-b796-49d3-8dcb-ef6b595714d2)
 
-3. Serial Monitor Setelah Memasukkan SSID dan PASS
+   ![3  serial monitor setelah memasukan ssid dan pass](https://github.com/deaprasasti/Jobsheet-Embedded/assets/153251202/1a73aec8-3eb9-4c7f-9d8d-5a3322548ca7)
 
-   ![SSID dan Pass](https://github.com/ArthZ01/System-Embedded/assets/91934953/371172c6-b42d-47f1-953c-8e28cff1680d)
-
-   ![3  serial monitor setelah memasukan ssid dan pass](https://github.com/ArthZ01/System-Embedded/assets/91934953/51e90c6f-72ea-468b-b1d5-dcd2800f2f56)
    
-4. Serial Monitor Setelah Berhasil Terhubung
-
-   ![4  Serial Monitor Setelah Berhasil Terhubung](https://github.com/ArthZ01/System-Embedded/assets/91934953/6bb90203-f938-451f-8f63-ec08a626a5ed)
+6. Serial Monitor Setelah Berhasil Terhubung
+   ![4  Serial Monitor Setelah Berhasil Terhubung](https://github.com/deaprasasti/Jobsheet-Embedded/assets/153251202/12f9df48-1c91-415d-8a4a-6905d64f4cc6)
 
 
 ### Pembahasan
