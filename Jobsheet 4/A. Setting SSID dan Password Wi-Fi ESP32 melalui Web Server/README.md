@@ -24,13 +24,14 @@
    ![tampilan wifi](https://github.com/deaprasasti/Jobsheet-Embedded/assets/153251202/c99c8681-2a57-4ad9-a454-9d7c6b1e3310)
 ![2  tampilan web](https://github.com/deaprasasti/Jobsheet-Embedded/assets/153251202/3eb49354-b23d-4a8f-ae0d-2d432ed0295d)
 
-4. Serial Monitor Setelah Memasukkan SSID dan PASS
+3. Serial Monitor Setelah Memasukkan SSID dan PASS
+   
    ![SSID dan Pass](https://github.com/deaprasasti/Jobsheet-Embedded/assets/153251202/571c4fce-b796-49d3-8dcb-ef6b595714d2)
 
    ![3  serial monitor setelah memasukan ssid dan pass](https://github.com/deaprasasti/Jobsheet-Embedded/assets/153251202/1a73aec8-3eb9-4c7f-9d8d-5a3322548ca7)
 
    
-6. Serial Monitor Setelah Berhasil Terhubung
+4. Serial Monitor Setelah Berhasil Terhubung
    ![4  Serial Monitor Setelah Berhasil Terhubung](https://github.com/deaprasasti/Jobsheet-Embedded/assets/153251202/12f9df48-1c91-415d-8a4a-6905d64f4cc6)
 
 
