@@ -78,5 +78,9 @@ Catatan:
 
 ## ANALISA
 
+Pada tahap akuisisi data, program pada ESP32 dikonfigurasi untuk mengukur suhu dan kelembaban setiap 5 detik dan mengirimkan data ke server melalui protokol MQTT. Penggunaan format JSON untuk menyusun data mempermudah representasi dan interpretasi data oleh server, menunjukkan kemudahan integrasi antara perangkat dan server menggunakan MQTT. Ini menegaskan efisiensi dan keterbacaan protokol dalam konteks akuisisi data sensor. Pada tahap kendali perangkat, interaksi antara ESP32 dan dashboard Node-Red memanfaatkan protokol MQTT untuk mengontrol LED. Melalui pengaturan topik tertentu, dashboard dapat mengirimkan instruksi ke ESP32 untuk menghidupkan atau mematikan LED. Hal ini mencerminkan fleksibilitas protokol MQTT dalam mendukung kendali perangkat IoT, memungkinkan aksi yang cepat dan responsif terhadap perubahan kondisi atau perintah dari dashboard. Selanjutnya, tahap pengendalian LED menggunakan suara melibatkan integrasi Adafruit IO dan MQTT. ESP32 mampu menerima instruksi suara melalui MQTT, menunjukkan kemampuan protokol ini untuk mendukung komunikasi dua arah yang kompleks. Hal ini menciptakan potensi aplikasi yang lebih luas, di mana perangkat IoT dapat merespons perintah suara untuk menjalankan fungsi tertentu, memperluas cakupan penggunaan 
+
 
 ## KESIMPULAN
+
+Pada keseluruhan praktikum, terlihat bahwa penggunaan protokol MQTT memberikan solusi komprehensif untuk akuisisi data dan kendali perangkat IoT. Kemampuannya dalam menyediakan aliran data yang andal dan mendukung komunikasi dua arah memperkuat posisinya sebagai protokol yang sangat cocok untuk implementasi IoT. 
