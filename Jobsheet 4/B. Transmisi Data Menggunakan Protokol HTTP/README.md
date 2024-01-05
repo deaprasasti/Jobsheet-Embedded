@@ -8,8 +8,7 @@
 ## 2. Source Code
 
 1. Code JSON Multi-Protocol IoT Server dapat dilihat <a href="https://github.com/deaprasasti/Jobsheet-Embedded/files/13845062/flow.program.Multi-Protocol.IoT.json">disini</a>
-2. Program ESP32 transmisi data dummy menggunakan protokol HTTP metode GET dapat dilihat <a href="[Uploading transmisi_data_dummy_keNode-Red_protokol_HTTP_metode_Get.ino…]()
-">disini</a>
+2. Program ESP32 transmisi data dummy menggunakan protokol HTTP metode GET dapat dilihat <a href="https://github.com/deaprasasti/Jobsheet-Embedded/blob/master/Jobsheet%204/B.%20Transmisi%20Data%20Menggunakan%20Protokol%20HTTP/transmisi_data_dummy_keNode-Red_protokol_HTTP_metode_Get/transmisi_data_dummy_keNode-Red_protokol_HTTP_metode_Get.ino">disini</a>
 3. Program ESP32 transmisi data dummy menggunakan protokol HTTP metode POST dapat dilihat <a href="https://github.com/ArthZ01/System-Embedded/blob/05864b09d785d0e0f36e0ccaa11523e064d9bc64/Jobsheet%204/B.%20Transmisi%20Data%20Menggunakan%20Protokol%20HTTP/transmisi_data_dummy_ke_Node-Red_protokol_HTTP_metode_POST/transmisi_data_dummy_ke_Node-Red_protokol_HTTP_metode_POST.ino">disini</a>
 
 ## 3. Flow Program
