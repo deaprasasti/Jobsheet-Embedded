@@ -25,13 +25,15 @@
 
 2. Dokumentasi
    
-   <img src="https://github.com/ArthZ01/System-Embedded/assets/91934953/16a7145a-144a-4b9c-ac4e-87439aff962b" width=40% height=40%>   
+   <img src="https://github.com/deaprasasti/Jobsheet-Embedded/assets/153251202/c75e2902-0155-4ad6-b519-40f007e1ec9e" width=40% height=40%>   
      
-   ![2  Dokumentasi](https://github.com/ArthZ01/System-Embedded/assets/91934953/4dcee22a-5419-4a73-afb0-02c17f310d7b)
+   ![2  Dokumentasi 2](https://github.com/deaprasasti/Jobsheet-Embedded/assets/153251202/0e1f35d6-fef7-429d-8169-558591cfa855)
+
 
 3. Debug Node-RED
    
-   ![3  Debug Node-RED](https://github.com/ArthZ01/System-Embedded/assets/91934953/4904e0bc-3dd9-458f-a78c-08be4a0992a3)
+   ![3  Debug Node-RED](https://github.com/deaprasasti/Jobsheet-Embedded/assets/153251202/6de5bdaf-5eb8-41ce-9c89-696c6dc054ca)
+
 
    
 4. Dashboard Node-RED
