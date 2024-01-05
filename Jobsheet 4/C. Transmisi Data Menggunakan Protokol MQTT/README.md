@@ -12,6 +12,7 @@
 
 
 ## 3. Flow Program
+
 ![Flow Program](https://github.com/ArthZ01/System-Embedded/assets/91934953/c94b9604-a98c-4036-9df2-14c0a48a964d)
 
 ## 4. Hasil & Pembahasan
@@ -19,19 +20,23 @@
 
 1. Flow chart 
 
-   ![Flow Chart](https://github.com/ArthZ01/System-Embedded/assets/91934953/63f63cb6-2e40-4b09-99ff-3b8c2c7e574b)
+     ![Flow Chart](https://github.com/deaprasasti/Jobsheet-Embedded/assets/153251202/55edcd93-8177-4264-aac3-d0c9f70be90b)
+
    
 3. Output serial monitor
    
-   ![2  Output serial monitor](https://github.com/ArthZ01/System-Embedded/assets/91934953/160587e7-6981-4552-ac6f-e0521c7a23ec)
+     ![2  Output serial monitor](https://github.com/deaprasasti/Jobsheet-Embedded/assets/153251202/552c4de7-fa1f-4ee6-a0a0-4be3565ce34a)
+
 
 4. Debug Node-RED
    
-   ![3  Debug Node-RED](https://github.com/ArthZ01/System-Embedded/assets/91934953/2feaf087-a882-402b-b27e-2a4fc712dbce)
+    ![3  Debug Node-RED](https://github.com/deaprasasti/Jobsheet-Embedded/assets/153251202/8040e549-a7fb-4376-b0be-dd9678a34e46)
+
    
 5. Dashboard Node-RED
 
-   <img src="https://github.com/ArthZ01/System-Embedded/assets/91934953/8f6d7a42-4854-496c-a174-496ae3b73e0f" width=80% height=80%>
+   ![4  Dashboard Node-RED](https://github.com/deaprasasti/Jobsheet-Embedded/assets/153251202/1d017b4b-5c66-40fd-9fb0-fb8be8f1991d)
+
    
 6. Tabel database MySQL
    
@@ -80,3 +85,14 @@ Catatan:
    * Data yang dikirimkan dalam format JSON.
    * Server MQTT yang digunakan adalah `broker.hivemq.com`.
    * Kode ini dapat digunakan untuk aplikasi IoT yang membutuhkan komunikasi dua arah yang ringan dan efisien.
+
+## ANALISA
+
+Praktikum ini melibatkan penggunaan ESP32 untuk mentransmisikan data sensor menggunakan protokol MQTT. Pada tahap awal, dilakukan konfigurasi koneksi WiFi dan MQTT yang esensial untuk memungkinkan ESP32 berkomunikasi dengan server MQTT. Keunggulan protokol MQTT, yang merupakan protokol berbasis pesan yang ringan dan handal, mempermudah pengiriman data secara efisien dari perangkat ke server.
+
+Program pada ESP32 dirancang untuk secara otomatis mencoba kembali koneksi MQTT jika terputus. Fungsi ini memberikan ketangguhan terhadap fluktuasi jaringan, memastikan keberlanjutan pengiriman data. Kemampuan ini penting dalam konteks aplikasi IoT, di mana keterhubungan perangkat harus dijaga sebaik mungkin untuk memastikan kelancaran pengumpulan data secara real-time. Penggunaan format data JSON untuk mengemas data sensor sebelum dikirim memudahkan pemrosesan data di sisi penerima, dalam hal ini, server Node-Red. Hal ini sesuai dengan kecenderungan umum dalam IoT untuk menggunakan format data yang mudah dipahami dan diolah oleh platform perangkat lunak. 
+
+## KESIMPULAN
+
+
+Pada praktikum transmisi data menggunakan protokol MQTT pada ESP32, dapat disimpulkan bahwa implementasi protokol MQTT berhasil memungkinkan ESP32 untuk mentransmisikan data sensor secara efisien dan handal ke server. Keterhubungan yang dapat dipertahankan secara otomatis oleh ESP32, kemampuan untuk melakukan reconect saat koneksi terputus, serta penggunaan format JSON untuk menyusun data sensor, menunjukkan kehandalan dan fleksibilitas dalam pengiriman data di lingkungan Internet of Things (IoT).
