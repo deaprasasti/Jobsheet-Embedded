@@ -6,8 +6,7 @@
 
 ## 2. Source Code
 
-<img src="https://github.com/deaprasasti/Jobsheet-Embedded/assets/153251202/c3c8e47d-3cc6-4e1d-afa7-62a5d1380719
-" height=700rem>
+<img src="https://github.com/deaprasasti/Jobsheet-Embedded/assets/153251202/c3c8e47d-3cc6-4e1d-afa7-62a5d1380719" height=1000rem>
 
 
 ## 3. Flowchart
