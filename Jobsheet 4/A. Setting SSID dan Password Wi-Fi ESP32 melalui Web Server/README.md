@@ -6,12 +6,12 @@
 
 ## 2. Source Code
 
-<img src="![Penjelasan Kode](https://github.com/deaprasasti/Jobsheet-Embedded/assets/153251202/aab217c4-0084-4960-820b-d67ad107a445)" height=1000rem>
+<img src="https://github.com/deaprasasti/JobsheetEmbedded/assets/153251202/aab217c4-0084-4960-820b-d67ad107a445" height=1000rem>
 
 
 ## 3. Flowchart
 
-<img src="![Flow Chart](https://github.com/deaprasasti/Jobsheet-Embedded/assets/153251202/39e8974a-d0cb-4461-a568-35f97faca3ee)" height=700rem>
+<img src="https://github.com/deaprasasti/Jobsheet-Embedded/assets/153251202/39e8974a-d0cb-4461-a568-35f97faca3ee" height=700rem>
 
 ## 4. Hasil dan Pembahasan
 ### Dokumentasi Hasil
