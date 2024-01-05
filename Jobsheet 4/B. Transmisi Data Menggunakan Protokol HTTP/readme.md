@@ -7,13 +7,16 @@
 
 ## 2. Source Code
 
-1. Code JSON Multi-Protocol IoT Server dapat dilihat <a href="https://github.com/ArthZ01/System-Embedded/blob/b0a720c8346aca387e8e5960110c174ae2e1a92a/Jobsheet%204/B.%20Transmisi%20Data%20Menggunakan%20Protokol%20HTTP/flow%20program%20Multi-Protocol%20IoT.json">disini</a>
-2. Program ESP32 transmisi data dummy menggunakan protokol HTTP metode GET dapat dilihat <a href="https://github.com/ArthZ01/System-Embedded/blob/05864b09d785d0e0f36e0ccaa11523e064d9bc64/Jobsheet%204/B.%20Transmisi%20Data%20Menggunakan%20Protokol%20HTTP/transmisi_data_dummy_keNode-Red_protokol_HTTP_metode_Get/transmisi_data_dummy_keNode-Red_protokol_HTTP_metode_Get.ino">disini</a>
+1. Code JSON Multi-Protocol IoT Server dapat dilihat <a href="https://github.com/deaprasasti/Jobsheet-Embedded/files/13845062/flow.program.Multi-Protocol.IoT.json">disini</a>
+2. Program ESP32 transmisi data dummy menggunakan protokol HTTP metode GET dapat dilihat <a href="[Uploading transmisi_data_dummy_keNode-Red_protokol_HTTP_metode_Get.ino…]()
+">disini</a>
 3. Program ESP32 transmisi data dummy menggunakan protokol HTTP metode POST dapat dilihat <a href="https://github.com/ArthZ01/System-Embedded/blob/05864b09d785d0e0f36e0ccaa11523e064d9bc64/Jobsheet%204/B.%20Transmisi%20Data%20Menggunakan%20Protokol%20HTTP/transmisi_data_dummy_ke_Node-Red_protokol_HTTP_metode_POST/transmisi_data_dummy_ke_Node-Red_protokol_HTTP_metode_POST.ino">disini</a>
 
 ## 3. Flow Program
 
-![Flow Program](https://github.com/ArthZ01/System-Embedded/assets/91934953/81454a50-29fd-481f-8b8f-3e68c6b977ba)
+![Flow Program](https://github.com/deaprasasti/Jobsheet-Embedded/assets/153251202/5dd1cd58-b2f2-46c3-8fd4-0c4e036c95e4)
+
+
 
 
 ## 4. Hasil Percobaan Transmisi Data Dummy Menuju Node-Red Menggunakan Protokol HTTP Metode GET
@@ -21,23 +24,25 @@
 
 1. Flow chart
 
-   <img src="https://github.com/ArthZ01/System-Embedded/assets/91934953/695f4ce4-01d0-4445-a892-19055b93a334" height=700rem>
+   <img src="https://github.com/deaprasasti/Jobsheet-Embedded/assets/153251202/05984489-3d3b-4a5d-9870-7c71758e211b" height=700rem>
    
 2. Output serial monitor
 
-   <img src="https://github.com/ArthZ01/System-Embedded/assets/91934953/930cbfb6-1a76-4706-9b1e-bbe84c709ebf" width=80% height=80%>
+   <img src="https://github.com/deaprasasti/Jobsheet-Embedded/assets/153251202/4f555ea0-dc6b-4d3b-90b8-13b0344e1bce" width=80% height=80%>
    
 4. Debug Node-RED
    
-   ![3  Debug Node-RED](https://github.com/ArthZ01/System-Embedded/assets/91934953/73dcece1-cbf4-4ebc-8748-51bf9fbec73a)
+   ![  Debug Node-RED](https://github.com/deaprasasti/Jobsheet-Embedded/assets/153251202/da65a14d-50d0-43f5-9d92-6556758d8154)
+
 
 5. Dashboard Node-RED
 
-   <img src="https://github.com/ArthZ01/System-Embedded/assets/91934953/013e2f79-fb78-4f0e-8d39-8cacd99390fc" width=80% height=80%>
+   <img src="https://github.com/deaprasasti/Jobsheet-Embedded/assets/153251202/708095b1-1482-4663-9964-611b08784f6e" width=80% height=80%>
    
 7. Tabel database MySQL
    
-   ![5  Tabel database MySQL](https://github.com/ArthZ01/System-Embedded/assets/91934953/2a903d24-d8db-4116-98a3-218aef4c5162)
+    ![  Tabel database MySQL](https://github.com/deaprasasti/Jobsheet-Embedded/assets/153251202/29e0572f-af81-4628-8700-c82f9a2ad313)
+
 
 
 ### Source Code
@@ -92,6 +97,17 @@ Catatan:
    * Interval pengiriman data diatur dalam variabel `timerDelay` (5 detik dalam kode ini).
    * Data yang dikirimkan dalam format JSON.
    * Server yang dituju adalah `http://192.168.1.7:1880/flood/node1`.
+
+## ANALISA
+
+   Praktikum di atas mencakup pengaturan dan konfigurasi untuk mentransmisikan data dari perangkat ESP32 ke server Node-Red menggunakan protokol HTTP. Pada langkah pertama, dilakukan konfigurasi Virtual Machine dengan adapter jaringan mode bridge dan pembuatan tabel database pada VM Ubuntu untuk menyimpan data banjir. Selanjutnya, pada langkah kedua, skrip program Node-Red disediakan untuk membuat konfigurasi Multi-Protocol IoT Server dengan menggunakan protokol HTTP dan MQTT, serta menghubungkannya dengan database yang telah dibuat sebelumnya. Adapun langkah ketiga mengenai ESP32, dilakukan upload skrip program ke perangkat tersebut untuk melakukan transmisi data dummy menuju Node-Red dengan protokol HTTP.
+   Percobaan ini menggunakan transmisi data dummy dari perangkat ESP32 menuju server Node-Red menggunakan protokol HTTP dengan metode GET. Pertama-tama, ESP32 dikonfigurasi untuk terhubung ke jaringan WiFi dengan menentukan SSID dan kata sandi yang sesuai. Selanjutnya, dilakukan konfigurasi URL untuk mengirim data, yang pada praktikum ini menggunakan metode GET dengan menambahkan parameter data dummy ke URL. Skrip program pada ESP32 kemudian dikonfigurasi untuk membuat koneksi HTTP ke server Node-Red dan mengirimkan data dummy melalui URL yang telah dibentuk sebelumnya.
+   Server Node-Red diatur untuk menerima data dari ESP32 melalui protokol HTTP. Sebuah node HTTP In menetapkan endpoint atau jalur URL untuk menerima data. Data yang diterima kemudian diolah, misalnya dengan memisahkan parameter dari URL dan melakukan validasi. Proses ini memungkinkan integrasi data ke dalam sistem yang lebih besar, seperti penyimpanan data dalam database atau visualisasi data.
+
+## KESIMPULAN 
+
+Percobaan ini melibatkan konfigurasi Virtual Machine, Node-Red server, dan ESP32 untuk berhasil mentransmisikan data dummy dari ESP32 ke server Node-Red melalui protokol HTTP dengan metode GET. Langkah-langkah termasuk konfigurasi jaringan pada Virtual Machine, pengaturan database, konfigurasi server Node-Red dengan multi-protocol IoT, dan upload skrip program pada ESP32. Penggunaan protokol HTTP dan metode GET memberikan gambaran tentang cara sistem IoT dapat mengirimkan data dengan efisien, tetapi keamanan data juga perlu diperhatikan. Kesimpulan mencakup keberhasilan implementasi, potensi keamanan, dan integrasi data dalam konteks transmisi data dari perangkat IoT ke server.
+
 
 ## 5. Hasil Percobaan Transmisi Data Dummy Menuju Node-Red Menggunakan Protokol HTTP Metode POST
 ### Dokumentasi Percobaan
@@ -168,3 +184,15 @@ Catatan:
    * Data yang dikirimkan dalam format JSON.
    * Server yang dituju adalah `http://192.168.1.7:1880/flood/node1`.
    * Kode ini dapat digunakan untuk mengirimkan data sensor atau informasi lain dari board Arduino ke server secara berkala.
+
+
+## ANALISA
+
+   Percobaan transmisi data dummy menuju Node-Red menggunakan protokol HTTP dengan metode POST ini melibatkan perangkat ESP32 yang dikonfigurasi untuk mentransfer informasi palsu ke server Node-Red. Pertama-tama, dalam konfigurasi WiFi, ESP32 terhubung ke jaringan WiFi yang ditentukan menggunakan SSID dan kata sandi yang telah diatur. Ini memastikan perangkat memiliki koneksi ke jaringan yang diperlukan untuk mentransmisikan data.
+   Selanjutnya, skrip program pada ESP32 menetapkan alamat server Node-Red yang akan menerima data. Dalam kasus ini, server tersebut ditentukan dengan URL dan jalur tertentu. Skrip ini diatur untuk mengirim permintaan HTTP POST setiap 5 detik, membawa data dummy yang telah ditentukan sebelumnya, seperti dev_id, level, rainfall, dan flow, dalam format JSON. Penggunaan metode POST memungkinkan pengiriman data yang lebih kompleks dan lebih aman daripada metode GET.
+   Di sisi Node-Red, server diatur untuk menerima data dari ESP32 melalui protokol HTTP. Node HTTP In digunakan untuk menetapkan endpoint atau jalur URL di mana server akan menerima data. Data yang diterima kemudian dapat diolah sesuai kebutuhan, misalnya, dengan mengekstrak nilai-nilai yang dikirimkan, melakukan validasi, atau menyimpannya dalam database. 
+
+## KESIMPULAN 
+
+   Secara keseluruhan, praktikum transmisi data dummy dari perangkat ESP32 ke server Node-Red menggunakan protokol HTTP metode POST memberikan pemahaman yang baik tentang konfigurasi dan implementasi aspek-aspek dasar dalam komunikasi IoT. Melalui percobaan ini, dapat disimpulkan bahwa penentuan konfigurasi jaringan pada perangkat, penyusunan skrip program untuk pengiriman data, dan pengaturan Node-Red sebagai penerima data telah berhasil dilakukan. Metode POST yang digunakan menunjukkan keunggulan dalam mentransfer data yang lebih kompleks, merangsang pemahaman tentang penggunaan HTTP dalam skenario IoT praktis.
+
