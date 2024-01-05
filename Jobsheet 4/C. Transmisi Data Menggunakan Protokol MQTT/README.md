@@ -5,17 +5,12 @@
 2. ESP32
 3. XAMPP
 
-## 2. Source Code
 
-1. Code JSON Multi-Protocol IoT Server dapat dilihat <a href="https://github.com/ArthZ01/System-Embedded/blob/56e9a384948c7094115b371713c101f8607528e6/Jobsheet%204/B.%20Transmisi%20Data%20Menggunakan%20Protokol%20HTTP/flow%20program%20Multi-Protocol%20IoT.json">disini</a>
-2. Program ESP32 dapat dilihat <a href="https://github.com/ArthZ01/System-Embedded/blob/56e9a384948c7094115b371713c101f8607528e6/Jobsheet%204/C.%20Transmisi%20Data%20Menggunakan%20Protokol%20MQTT/program%20transmisi%20mqtt/program%20transmisi%20mqtt.ino">disini</a>
-
-
-## 3. Flow Program
+## 2. Flow Program
 
 ![Flow Program](https://github.com/ArthZ01/System-Embedded/assets/91934953/c94b9604-a98c-4036-9df2-14c0a48a964d)
 
-## 4. Hasil & Pembahasan
+## 3. Hasil & Pembahasan
 ### Dokumentasi Hasil
 
 1. Flow chart 
@@ -42,9 +37,6 @@
    
    ![image](https://github.com/ArthZ01/System-Embedded/assets/91934953/b6e71433-c1e9-4338-8658-50a975f8fb39)
 
-
-### Source Code
-![Penjelasan Kode](https://github.com/ArthZ01/System-Embedded/assets/91934953/bce2d89a-1422-4f42-99e6-76cb8ad0fb6d)
 
 ### Pembahasan
 1. Bagian Awal:
