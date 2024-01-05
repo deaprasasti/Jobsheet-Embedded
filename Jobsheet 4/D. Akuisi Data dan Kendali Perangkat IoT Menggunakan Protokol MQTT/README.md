@@ -27,7 +27,7 @@
    
    <img src="https://github.com/deaprasasti/Jobsheet-Embedded/assets/153251202/c75e2902-0155-4ad6-b519-40f007e1ec9e" width=40% height=40%>   
 
-<img src="https://github.com/deaprasasti/Jobsheet-Embedded/assets/153251202/0e1f35d6-fef7-429d-8169-558591cfa855" width=40% height=40%>
+   <img src="https://github.com/deaprasasti/Jobsheet-Embedded/assets/153251202/0e1f35d6-fef7-429d-8169-558591cfa855" width=40% height=40%>
 
 
 2. Debug Node-RED
