@@ -38,38 +38,10 @@
 
 ### Pembahasan
 
-  1. Bagian Awal:
-  * Memasukkan library yang diperlukan:
-     * 'WiFi.h': untuk mengakses fungsi Wi-Fi.
-     * Membaca kredensial WiFi yang tersimpan di EEPROM.
-     * Mencoba menghubungkan ke WiFi menggunakan kredensial tersebut.
+  Praktikum di atas mengilustrasikan penggunaan ESP32 untuk konfigurasi SSID dan password Wi-Fi melalui sebuah web server. Langkah-langkahnya mencakup inisialisasi perangkat, pengecekan status koneksi Wi-Fi, dan pembukaan akses poin (HotSpot) jika terjadi masalah koneksi atau ada perintah untuk melakukan konfigurasi baru. Web server yang dibuka memungkinkan pengguna untuk memasukkan informasi baru, seperti SSID dan password, yang nantinya disimpan dalam memori EEPROM. Setelah konfigurasi baru disimpan, ESP32 di-restart untuk menerapkan perubahan, dan kemudian mencoba untuk terhubung ke jaringan Wi-Fi dengan informasi yang telah diperbarui.
 
-  2. Loop Utama:
-  * Jika terkoneksi ke WiFi:
-    * Mencetak pesan konfirmasi koneksi.
-  * Jika tidak terkoneksi ke WiFi:
-    * Mengecek status tombol untuk memaksa mode AP (Access Point).
-    * Jika tombol tidak ditekan dan koneksi gagal, memulai mode AP dan membuat halaman web untuk konfigurasi WiFi.
-    * Menunggu hingga terkoneksi ke WiFi.
-
-  3. Fungsi testWifi:
-  * Mencoba menghubungkan ke WiFi selama 10 detik.
-  * Mengembalikan nilai 'true' jika terkoneksi, 'false' jika tidak.
-
-  4. Fungsi launchWeb:
-  * Mencetak informasi IP address perangkat (local dan softAP jika ada).
-  * Menjalankan fungsi createWebServer untuk membuat halaman web konfigurasi WiFi.
-
-  5. Fungsi setupAP:
-  * Mengatur perangkat sebagai Access Point (AP) dengan nama "MiSREd IoT".
-  * Mencari jaringan WiFi di sekitar dan menyimpan daftarnya dalam variabel st.
-  * Menjalankan fungsi launchWeb untuk menampilkan halaman konfigurasi WiFi.
-
-  6. Fungsi createWebServer:
-  * Menangani permintaan ke halaman web:
-    * '/' : Menampilkan halaman utama dengan daftar jaringan WiFi yang ditemukan dan formulir untuk memasukkan kredensial WiFi baru.
-    * '/scan' : Memindai ulang jaringan WiFi dan menampilkan hasilnya.
-    * '/setting' : Menerima kredensial WiFi baru, menyimpannya ke EEPROM, dan me-restart perangkat.
+   Dokumentasi hasil dari Serial Monitor penting untuk memahami langkah-langkah yang dilakukan ESP32 selama praktikum. Pesan-pesan status, informasi SSID, dan password yang terbaca dari EEPROM memberikan bukti atas keberhasilan atau kegagalan proses konfigurasi. Dengan demikian, pemantauan Serial Monitor menjadi kunci untuk menilai keberhasilan praktikum. Flow chart program menyajikan pandangan visual tentang alur program secara keseluruhan. Dengan melihat diagram tersebut, dapat diperoleh gambaran yang jelas tentang bagaimana ESP32 berinteraksi dengan koneksi Wi-Fi, HotSpot, dan web server untuk mengelola konfigurasi SSID dan password. Keseluruhan praktikum ini memberikan pengalaman praktis yang bermanfaat dalam konfigurasi perangkat IoT secara dinamis melalui antarmuka web.
   
 ### Kesimpulan:
-Kode ini dirancang untuk memudahkan konfigurasi WiFi pada perangkat dengan menyediakan antarmuka web yang dapat diakses dari perangkat lain. Pengguna dapat mengubah kredensial WiFi tanpa perlu mengubah kode secara langsung.
+
+Dalam praktikum ini, telah berhasil diimplementasikan konfigurasi SSID dan password Wi-Fi pada ESP32 melalui sebuah web server. Langkah-langkah yang dijalankan mencakup inisialisasi perangkat, pengecekan status koneksi Wi-Fi, serta pembukaan akses poin (HotSpot) jika diperlukan. Web server yang dibuka memungkinkan pengguna untuk melakukan konfigurasi secara dinamis dengan memasukkan informasi baru seperti SSID dan password. Hal ini memberikan fleksibilitas yang tinggi dalam mengelola koneksi Wi-Fi tanpa perlu melakukan reprogram langsung pada kode sumber.
